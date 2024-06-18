@@ -13,10 +13,10 @@ import Layout from './Layout.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/personal-portfolio/' element={<Layout />}>
-      <Route path='/' element={<Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/portfolio' element={<Portfolio />} />
-      <Route path='/contact' element={<Contact />} />
+      <Route path='/personal-portfolio/' element={<Home />} />
+      <Route path='/personal-portfolio/about' element={<About />} />
+      <Route path='/personal-portfolio/portfolio' element={<Portfolio />} />
+      <Route path='/personal-portfolio/contact' element={<Contact />} />
     </Route>
   )
 )

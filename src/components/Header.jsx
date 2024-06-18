@@ -17,16 +17,16 @@ export default function Header() {
             <div className="welcome-options">
                 <h1 className='nav-title'>Hi, I'm Riley.</h1>
                 <div className="welcome-option">
-                    <Link to='/' className={isActive("home")} onClick={() => handleClick("home")}>Home</Link>
+                    <Link to='/personal-portfolio/' className={isActive("home")} onClick={() => handleClick("home")}>Home</Link>
                 </div>
                 <div className="welcome-option">
-                    <Link to='/about' className={isActive("about")} onClick={() => handleClick("about")}>About</Link>
+                    <Link to='/personal-portfolio/about' className={isActive("about")} onClick={() => handleClick("about")}>About</Link>
                 </div>
                 <div className="welcome-option">
-                    <Link to='/portfolio' className={isActive("portfolio")} onClick={() => handleClick("portfolio")}>Portfolio</Link>
+                    <Link to='/personal-portfolio/portfolio' className={isActive("portfolio")} onClick={() => handleClick("portfolio")}>Portfolio</Link>
                 </div>
                 <div className="welcome-option">
-                    <Link to='/contact' className={isActive("contact")} onClick={() => handleClick("contact")}>Contact</Link>
+                    <Link to='/personal-portfolio/contact' className={isActive("contact")} onClick={() => handleClick("contact")}>Contact</Link>
                 </div>
             </div>
         </div>

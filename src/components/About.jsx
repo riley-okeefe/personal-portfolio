@@ -9,9 +9,9 @@ export default function About() {
                     posessing multiple skills and certifications in this field, such as AI For 
                     Everyone from Coursera, Fundamentals of Accelerated Computing with CUDA C/C++ 
                     from NVIDIA, Neural Networks and Deep Learning from DeepLearning.AI on Coursera,
-                    and Intro to DevOps from IBM on Coursera. In addtion I have recieved a Co-Curricular 
+                    and Intro to DevOps from IBM on Coursera. In addition I have received a Co-Curricular 
                     Experience Record from Saint Mary's University in which I gained valuable practical 
-                    experience in the areas of Software Engineering and Web Developement, along with 
+                    experience in the areas of Software Engineering and Web Development, along with 
                     experience using various programming languages.
                     <br/><br/>
                     Whether it's a new programming language, AI/ML tool, library or framework, I'm 

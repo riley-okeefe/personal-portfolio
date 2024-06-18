@@ -10,16 +10,39 @@ import About from './components/About'
 import './index.css'
 import Layout from './Layout.jsx'
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path='/personal-portfolio/' element={<Layout />}>
-      <Route path='/personal-portfolio/' element={<Home />} />
-      <Route path='/personal-portfolio/about' element={<About />} />
-      <Route path='/personal-portfolio/portfolio' element={<Portfolio />} />
-      <Route path='/personal-portfolio/contact' element={<Contact />} />
-    </Route>
-  )
-)
+const router = createBrowserRouter([
+  {
+    path: "/personal-portfolio/",
+    element: <Layout />, 
+    children: [
+      {
+        path: "/personal-portfolio/",
+        element: <Home />,
+      },
+      {
+        path: "/personal-portfolio/about",
+        element: <About />,
+      },
+      {
+        path: "/personal-portfolio/portfolio",
+        element: <Portfolio />,
+      },
+      {
+        path: "/personal-portfolio/contact",
+        element: <Contact />,
+      },
+    ]
+  }
+
+  // createRoutesFromElements(
+  //   <Route path='/personal-portfolio/' element={<Layout />}>
+  //     <Route path='/personal-portfolio/' element={<Home />} />
+  //     <Route path='/personal-portfolio/about' element={<About />} />
+  //     <Route path='/personal-portfolio/portfolio' element={<Portfolio />} />
+  //     <Route path='/personal-portfolio/contact' element={<Contact />} />
+  //   </Route>
+  // )
+])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

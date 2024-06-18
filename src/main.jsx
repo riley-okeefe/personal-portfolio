@@ -12,7 +12,7 @@ import Layout from './Layout.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "",
+    path: "/personal-portfolio/",
     element: <Layout />, 
     children: [
       {

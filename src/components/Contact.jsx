@@ -6,7 +6,7 @@ export default function Contact() {
                     <h1>Let's Connect</h1>
                 </div>
                 <div className="content-contact">
-                    <a href="https://www.linkedin.com/in/riley-okeefe/"><i className="fa-brands fa-linkedin fa-xl" style={{ color: "black" }}></i></a>
+                    <a href="https://www.linkedin.com/in/riley-okeefe/"><i className="fa-brands fa-linkedin fa-xl" style={{ color: "#0072B1" }}></i></a>
                 </div>
                 <div className="content-contact">
                     <a href="https://github.com/riley-okeefe"><i className="fa-brands fa-github fa-xl" style={{ color: "black" }}></i></a>

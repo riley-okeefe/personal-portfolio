@@ -8,9 +8,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /* background: linear-gradient(217deg, rgba(23, 135, 226, 0.8), rgba(255, 0, 0, 0) 70.71%),
-        linear-gradient(127deg, rgba(37, 143, 230, 0.8), rgba(0, 255, 0, 0) 70.71%),
-        linear-gradient(336deg, rgba(23, 135, 226, 0.8), rgba(0, 0, 255, 0) 70.71%); */
+    width: 100%;
+    background-color: rgba(238, 237, 237, 0.878);
 }
 
 body>* {
@@ -23,70 +22,71 @@ main {
 
 .nav-title {
     font-family: 'Game Played', sans-serif;
-    color: rgba(29, 28, 28, 0.96);
+    color: #000000b5;
     font-size: 50px;
+    padding-left: 20px;
 }
 
 /* Welcome section - start */
 
 .welcome-card {
     text-align: center;
+    align-items: center;
+    margin: 0 10px 0 10px;
 }
 
 .welcome-options {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content:space-between;
     align-items: center;
     margin-left: auto;
     margin-right: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+}
+
+.welcome-option-group {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #000000b5;
+    border-radius: 15px;
+    height: 3.6rem;
+
+}
+
+.welcome-option {
+    margin: 0 5px 0 5px;
+    line-height: 1.4rem;
 }
 
 .welcome-option a {
+    background-color: #303030d6;
+    border-radius: 10px;
     text-decoration: none;
     font-family: 'Jawbreaker OL1 BRK', sans-serif;
     padding: 0 26px 0 2px;
     text-align: center;
     font-size: 30px;
     cursor: pointer;
-    color: rgb(10, 10, 10);
+    color: #d2cfcf;
     padding: 0 10px;
     line-height: 1.4em;
-    background:
-        linear-gradient(#000000 0 0),
-        linear-gradient(#000000 0 0),
-        #000;
-    -webkit-background-clip: text, padding-box;
-    background-clip: text, padding-box;
-    background-size: 100% 50%;
-    background-position: -100vmax 100%;
-    border-radius: 10px;
-    box-shadow: -100vmax 0.7em 0 0 #00000000;
-    clip-path: polygon(-100vmax 0, 100% 0, 100% calc(100% + 0.7em), -100vmax calc(100% + 0.7em));
-    background-repeat: no-repeat;
-    transition: 0.4s, box-shadow 0.3s 0.4s, background-position 0.3s 0.4s, transform;
 }
 
 .welcome-option a:hover {
     transform: scale(1.1);
-    color: rgb(255, 255, 255);
+    color: #000000b5;
     font-family: 'Jawbreaker OL1 BRK', sans-serif;
-    background-position: 0 100%;
-    background-size: 100% 100%;
-    border-radius: 10px;
-    clip-path: polygon(-100vmax 0, 100% 0, 100% 100%, -100vmax 100%);
-    transition: 0.4s, clip-path 0.3s 0.4s, background-size 0.3s 0.4s;
+    background-color: #d2cfcf;
 }
 
 .welcome-option a.active {
     transform: scale(1.1);
-    color: rgb(255, 255, 255);
+    color: #000000b5;
     font-family: 'Jawbreaker OL1 BRK', sans-serif;
-    background-position: 0 100%;
-    background-size: 100% 100%;
-    border-radius: 10px;
-    clip-path: polygon(-100vmax 0, 100% 0, 100% 100%, -100vmax 100%);
-    transition: 0.4s, clip-path 0.3s 0.4s, background-size 0.3s 0.4s;
+    background-color: #d2cfcf;
 }
 
 /* Welcome Section - end */
@@ -96,7 +96,7 @@ main {
     justify-content: center;
     text-align: center;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: #000000b5;
 }
 
 .content-card h1 {
@@ -153,7 +153,7 @@ main {
     width: 350px;
     height: 360px;
     border-radius: 50%;
-    border: 5px solid rgb(0, 0, 0);
+    border: 5px solid #000000b5;
 }
 
 .content-home-mobile{
@@ -163,7 +163,7 @@ main {
 
 /* Body styling, about - start */
 .content-body-about {
-    color: rgb(0, 0, 0);
+    color: #000000b5;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -178,7 +178,7 @@ main {
 }
 
 .content-about {
-    color: #000000;
+    color: #000000b5;
 }
 
 .content-skills h1 {
@@ -206,7 +206,7 @@ main {
 
 .content-project a{
     text-decoration: none;
-    background-color: #000;
+    background-color: #000000b5;
     color: white;
     border-radius: 10%;
 }
@@ -262,10 +262,15 @@ footer {
 
 @media only screen and (max-width: 768px) {
     .nav-title{
-        font-size: 1.5rem;
-    }
-    .welcome-option a {
         font-size: 1rem;
+    }
+
+    .welcome-option-group {
+        height: 1.5rem;
+    }
+    
+    .welcome-option a {
+        font-size: 0.7rem;
     }
 
     .content-card {
@@ -323,7 +328,7 @@ footer {
     }
     .content-project-mobile h2 a{
         text-decoration: none;
-        background-color: #000;
+        background-color: #000000b5;
         color: white;
         border-radius: 10%;
     }

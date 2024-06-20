@@ -38,6 +38,8 @@ jobs:
     if: github.ref == 'refs/heads/main'
 
     steps:
+      - name: Copy index.html to 404.html
+        run: cp ./dist/index.html ./dist/404.html
       - name: Download artifact
         uses: actions/download-artifact@v2
         with:

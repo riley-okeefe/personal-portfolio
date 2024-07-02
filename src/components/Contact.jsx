@@ -1,3 +1,5 @@
+import "./contact.css";
+
 export default function Contact() {
     return (
         <div id="contact" className="content-card">

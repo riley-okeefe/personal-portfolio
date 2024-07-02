@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import "./header.css";
 
 export default function Header() {
     const [activeComponent, setActiveComponent] = useState("");

@@ -1,4 +1,5 @@
-import profilePic from '../assets/images/gradphotonew.png'
+import profilePic from '../assets/images/gradphotonew.png';
+import './home.css';
 
 export default function Home() {
     return (

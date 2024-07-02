@@ -1,9 +1,10 @@
-import ProceduralTerrains from '../assets/images/ProceduralTerrains.png'
-import RayTracer from '../assets/images/RayTracer.png'
-import WoodlandConservation from '../assets/images/WoodlandConservation.png'
-import FlaskMySql from '../assets/images/FlaskMySQL.png'
-import MountainBikeCentral from '../assets/images/MountainBikeCentral.png'
-import StreetPursuit from '../assets/images/StreetPursuit.png'
+import './portfolio.css';
+import ProceduralTerrains from '../assets/images/ProceduralTerrains.png';
+import RayTracer from '../assets/images/RayTracer.png';
+import WoodlandConservation from '../assets/images/WoodlandConservation.png';
+import FlaskMySql from '../assets/images/FlaskMySQL.png';
+import MountainBikeCentral from '../assets/images/MountainBikeCentral.png';
+import StreetPursuit from '../assets/images/StreetPursuit.png';
 
 export default function Portfolio() {
     return (

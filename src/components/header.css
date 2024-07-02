@@ -1,0 +1,80 @@
+.welcome-card {
+    text-align: center;
+    align-items: center;
+    margin: 0 10px 0 10px;
+}
+
+.welcome-options {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-title {
+    font-family: 'Game Played', sans-serif;
+    color: #000000b5;
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+.welcome-option-group {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #000000b5;
+    border-radius: 15px;
+    height: 3.6rem;
+
+}
+
+.welcome-option {
+    margin: 0 5px 0 5px;
+    line-height: 1.4rem;
+}
+
+.welcome-option a {
+    background-color: #303030d6;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Jawbreaker OL1 BRK', sans-serif;
+    padding: 0 26px 0 2px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    color: #d2cfcf;
+    padding: 0 10px;
+    line-height: 1.4em;
+}
+
+.welcome-option a:hover {
+    transform: scale(1.1);
+    color: #000000b5;
+    font-family: 'Jawbreaker OL1 BRK', sans-serif;
+    background-color: #d2cfcf;
+}
+
+.welcome-option a.active {
+    transform: scale(1.1);
+    color: #000000b5;
+    font-family: 'Jawbreaker OL1 BRK', sans-serif;
+    background-color: #d2cfcf;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-title{
+        font-size: 1rem;
+    }
+
+    .welcome-option-group {
+        height: 1.5rem;
+    }
+    
+    .welcome-option a {
+        font-size: 0.7rem;
+    }
+}

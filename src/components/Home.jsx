@@ -16,8 +16,6 @@ export default function Home() {
                         <p>
                             My name is Riley O'Keefe and you have arrived at my personal portfolio website where you 
                             can get to know me, see some of my work, and connect with me.
-                            <br/><br/>
-                            I'm currently based out of Halifax, Nova Scotia.
                         </p>
                         
                     </div>
@@ -33,8 +31,6 @@ export default function Home() {
                         <p>
                             My name is Riley O'Keefe and you have arrived at my personal portfolio website where you 
                             can get to know me, see some of my work, and connect with me.
-                            <br/><br/>
-                            I'm currently based out of Halifax, Nova Scotia.
                         </p>
                         
                     </div>

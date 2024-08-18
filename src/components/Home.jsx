@@ -17,7 +17,6 @@ export default function Home() {
                             My name is Riley O'Keefe and you have arrived at my personal portfolio website where you 
                             can get to know me, see some of my work, and connect with me.
                         </p>
-                        
                     </div>
                 </div>
                 <div className='content-home-mobile'>
@@ -32,7 +31,6 @@ export default function Home() {
                             My name is Riley O'Keefe and you have arrived at my personal portfolio website where you 
                             can get to know me, see some of my work, and connect with me.
                         </p>
-                        
                     </div>
                 </div>
             </div>

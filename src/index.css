@@ -43,6 +43,8 @@ main {
     text-align: center;
     align-items: center;
     color: #000000b5;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .content-card h1 {

@@ -20,10 +20,6 @@ export default function About() {
                     always eager to expand my knowledge and I thrive on exploring and learning about 
                     new technologies.
                     <br/><br/>
-                    I have experience in Information Technology, which I gained through my student 
-                    position at Transport Canada, supporting the organization's operations and objectives 
-                    while also learning standard IT practices to provide exceptional client service.
-                    <br/><br/>
                     Through these experiences, I have developed strong competencies in timeline management, 
                     problem solving, communication, and teamwork which I aim to further enhance and utilize 
                     in my future career.

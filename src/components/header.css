@@ -1,7 +1,8 @@
 .welcome-card {
     text-align: center;
     align-items: center;
-    margin: 0 10px 0 10px;
+    margin: 0 10px;
+    position: relative;
 }
 
 .welcome-options {
@@ -9,16 +10,13 @@
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
-    margin-left: auto;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin: 0 20px 20px;
 }
 
 .nav-title {
     font-family: 'Game Played Outline', sans-serif;
     color: var(--color-dark-black);
     font-size: 50px;
-    padding-left: 20px;
 }
 
 .welcome-option-group {
@@ -26,10 +24,25 @@
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    background-color: #000000b5;
+    background-color: var(--color-dark-black);
     border-radius: 15px;
     height: 3.6rem;
 
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--color-dark-black);
 }
 
 .welcome-option {
@@ -66,15 +79,50 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .nav-title{
-        font-size: 1rem;
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg)
     }
 
     .welcome-option-group {
-        height: 1.5rem;
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background-color: var(--color-dark-black);
+        width: 100%;
+        height: auto;
+        text-align: center;
+        transition: 0.3s;
+        padding: 20px 0;
+        z-index: 999;
     }
-    
+
+    .welcome-option-group.active {
+        left: 0;
+    }
+
+    .welcome-option {
+        margin: 10px 0;
+    }
+
+    .nav-title {
+        font-size: 1.5rem;
+    }
+
     .welcome-option a {
-        font-size: 0.7rem;
+        font-size: 1rem;
+        padding: 5px 15px;
     }
 }

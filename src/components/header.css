@@ -15,8 +15,8 @@
 }
 
 .nav-title {
-    font-family: 'Game Played', sans-serif;
-    color: #000000b5;
+    font-family: 'Game Played Outline', sans-serif;
+    color: var(--color-dark-black);
     font-size: 50px;
     padding-left: 20px;
 }

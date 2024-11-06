@@ -7,7 +7,7 @@ export default function About() {
                 <div className="content-about">
                     <h1>Get to know me</h1>
                     <p>
-                    A new Computer Science Graduate from Saint Mary's University, 
+                    A Computer Science Graduate from Saint Mary's University, 
                     posessing multiple skills and certifications in this field, such as AI For 
                     Everyone from Coursera, Fundamentals of Accelerated Computing with CUDA C/C++ 
                     from NVIDIA, Neural Networks and Deep Learning from DeepLearning.AI on Coursera,

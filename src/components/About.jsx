@@ -10,7 +10,7 @@ export default function About() {
                     A Computer Science Graduate from Saint Mary's University, 
                     posessing multiple skills and certifications in this field, such as AI For 
                     Everyone from Coursera, Fundamentals of Accelerated Computing with CUDA C/C++ 
-                    from NVIDIA, Neural Networks and Deep Learning from DeepLearning.AI on Coursera,
+                    from NVIDIA, Neural Networks and Deep Learning from DeepLearning AI on Coursera,
                     and Intro to DevOps from IBM on Coursera. In addition I have received a Co-Curricular 
                     Experience Record from Saint Mary's University in which I gained valuable practical 
                     experience in the areas of Software Engineering and Web Development, along with 
@@ -19,6 +19,9 @@ export default function About() {
                     Whether it's a new programming language, AI/ML tool, library or framework, I'm 
                     always eager to expand my knowledge and I thrive on exploring and learning about 
                     new technologies.
+                    <br/><br/>
+                    Currently I am utilizing my problem solving and analytical thinking skills gained from my Computer Science 
+                    degree working as an IT Analyst. 
                     <br/><br/>
                     Through these experiences, I have developed strong competencies in timeline management, 
                     problem solving, communication, and teamwork which I aim to further enhance and utilize 
@@ -35,7 +38,7 @@ export default function About() {
                         <br/><br/>
                         <strong>Tools I have experience using:</strong> GitHub, Git, Microsoft 365, Visual Studio, 
                         Visual Studio Code, MySQL, Active Directory, BMC Remedy SmartIT ticketing system, Beyond Trust 
-                        secure remote support.
+                        secure remote support, ConnectWise (PSA, Automate, ScreenConnect)
                         <br/><br/>
                         <strong>Game engines I have experience using:</strong> Unity.
                     </p>

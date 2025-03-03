@@ -12,6 +12,8 @@
 .content-project{
     column-count: 2;
     column-width: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin-bottom: 50px;
     font-family: 'Matias', sans-serif;
 }
@@ -24,15 +26,16 @@
 }
 
 .content-project img{
-    width: 550px;
-    height: 400px;
+    width: 450px;
+    height: 300px;
     border-radius: 10%;
     background: radial-gradient(transparent 20%, white 70%);
 }
 
 .content-project-description p{
-    padding: 0 40px 0 40px;
-    font-size: 1.3rem;
+    /* padding: 0 40px 0 40px; */
+    padding-left: 50px;
+    font-size: 1rem;
     text-align: justify;
 }
 

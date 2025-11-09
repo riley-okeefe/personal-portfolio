@@ -14,7 +14,7 @@ export default function About() {
                     <br/><br/>
                     Throughout my academic, co-curricular and professional experiences, I have gained practical skills in
                     building and testing software using a variety of programming languages and frameworks.
-                    I'm particualrly interested in the intersection of software engineering, AI, and cloud technologies.
+                    I'm particularly interested in the intersection of software engineering, AI, and cloud technologies.
                     <br/><br/>
                     I'm currently working as a <strong>Graduate Software Engineer at Kainos</strong>, where I'm contributing
                     to a public sector project using the .NET stack. My role thus far has involved developing new features, fixing bugs,
